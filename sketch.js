@@ -23,7 +23,7 @@ function draw(){
   text("Date: "+date, 30,50);
   text("Time: "+time ,30,70)
 
-  if(mousePressedOver(button) && hr===23){
+  if(mousePressedOver(button) && hr===11){
       display();
   }
   drawSprites();
